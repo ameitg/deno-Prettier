@@ -1,0 +1,6 @@
+{
+  "xmlSortAttributesByKey": true,
+  "singleAttributePerLine": true,
+  "xmlWhitespaceSensitivity": "ignore",
+  "plugins": ["@prettier/plugin-xml"]
+}

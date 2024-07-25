@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "@prettier/plugin-xml": "npm:@prettier/plugin-xml",
+  },
+  "tasks": {
+    "fmt": "deno cache npm:@prettier/plugin-xml && deno run -A npm:prettier -w .",
+  },
+  "nodeModulesDir": true,
+}
